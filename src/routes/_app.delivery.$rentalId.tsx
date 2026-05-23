@@ -3,7 +3,7 @@ import { ArrowLeft, ShieldCheck, MapPin } from "lucide-react";
 import { useEffect } from "react";
 import { useApp, type DeliveryState } from "@/lib/store";
 import { DeliveryStepper } from "@/components/DeliveryStepper";
-import { courier } from "@/lib/mock-data";
+import { courier, getListing } from "@/lib/mock-data";
 
 export const Route = createFileRoute("/_app/delivery/$rentalId")({
   head: () => ({ meta: [{ title: "Track delivery — Rented" }] }),

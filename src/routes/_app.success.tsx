@@ -8,7 +8,10 @@ export const Route = createFileRoute("/_app/success")({
 });
 
 function Success() {
-  const rentals = useApp((s) => s.rentals.filter(r => r.buyerId === s.currentUser.id));
+  const activeMode = useApp((s) => s.currentUser.activeMode);
+  const rentals = useApp((s) => s?.rentals?.filter(r => 
+    activeMode === "vendor" ? r?.vendorId === s?.currentUser?.id : r?.buyerId === s?.currentUser?.id
+  ) || []);
   const rentalId = rentals.length > 0 ? rentals[0].id : "r-demo";
 
   return (
@@ -18,7 +21,7 @@ function Success() {
       </div>
       <h1 className="mt-6 text-2xl font-extrabold text-ink">You're all set!</h1>
       <p className="mt-2 text-muted-foreground max-w-xs">
-        Your rental request is confirmed. The lender will be notified and the
+        Your rental request is confirmed. The other party will be notified and the
         funds are safely held in escrow.
       </p>
       <div className="mt-6 flex items-center gap-2 text-xs text-muted-foreground">

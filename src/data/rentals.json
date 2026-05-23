@@ -153,5 +153,204 @@
     "deliveryState": "pending",
     "insuranceState": "not_required",
     "createdAt": 1716200000000
+  },
+  {
+    "id": "rent-pending-u1-1",
+    "listingId": "gopro-hero",
+    "buyerId": "salma",
+    "vendorId": "user-1",
+    "startDate": "2026-06-10",
+    "endDate": "2026-06-12",
+    "offerPrice": 70,
+    "status": "pending",
+    "thread": [
+      {
+        "id": "m1",
+        "authorId": "salma",
+        "type": "text",
+        "text": "Hi, I'd like to rent this for my beach trip next week. Is it available?",
+        "ts": 1716410000000
+      }
+    ],
+    "deliveryState": "pending",
+    "insuranceState": "not_required",
+    "createdAt": 1716410000000
+  },
+  {
+    "id": "rent-negotiating-u1-1",
+    "listingId": "projector",
+    "buyerId": "nizar",
+    "vendorId": "user-1",
+    "startDate": "2026-05-28",
+    "endDate": "2026-05-29",
+    "offerPrice": 35,
+    "status": "negotiating",
+    "thread": [
+      {
+        "id": "m1",
+        "authorId": "nizar",
+        "type": "offer",
+        "price": 30,
+        "startDate": "2026-05-28",
+        "endDate": "2026-05-29",
+        "ts": 1716395000000
+      },
+      {
+        "id": "m2",
+        "authorId": "user-1",
+        "type": "text",
+        "text": "Hey Nizar, 30 DT is a bit too low since it's a weekend. How about 35 DT?",
+        "ts": 1716396000000
+      },
+      {
+        "id": "m3",
+        "authorId": "user-1",
+        "type": "offer",
+        "price": 35,
+        "ts": 1716396050000
+      }
+    ],
+    "deliveryState": "pending",
+    "insuranceState": "not_required",
+    "createdAt": 1716395000000
+  },
+  {
+    "id": "rent-pending-u1-2",
+    "listingId": "folding-chairs",
+    "buyerId": "yasmine",
+    "vendorId": "user-1",
+    "startDate": "2026-06-05",
+    "endDate": "2026-06-06",
+    "offerPrice": 30,
+    "status": "pending",
+    "thread": [
+      {
+        "id": "m1",
+        "authorId": "yasmine",
+        "type": "text",
+        "text": "Hi! Do you offer delivery for these chairs?",
+        "ts": 1716420000000
+      }
+    ],
+    "deliveryState": "pending",
+    "insuranceState": "not_required",
+    "createdAt": 1716420000000
+  },
+  {
+    "id": "rent-pending-u1-3",
+    "listingId": "sewing-machine",
+    "buyerId": "mehdi",
+    "vendorId": "user-1",
+    "startDate": "2026-05-27",
+    "endDate": "2026-05-30",
+    "offerPrice": 75,
+    "status": "pending",
+    "thread": [
+      {
+        "id": "m1",
+        "authorId": "mehdi",
+        "type": "text",
+        "text": "Need this for a quick DIY project at home.",
+        "ts": 1716425000000
+      }
+    ],
+    "deliveryState": "pending",
+    "insuranceState": "not_required",
+    "createdAt": 1716425000000
+  },
+  {
+    "id": "rent-pickup-1",
+    "listingId": "generator-honda",
+    "buyerId": "nizar",
+    "vendorId": "user-1",
+    "startDate": "2026-05-25",
+    "endDate": "2026-05-28",
+    "offerPrice": 45,
+    "status": "accepted",
+    "thread": [],
+    "deliveryState": "vendor_preparing",
+    "insuranceState": "pending_recording",
+    "createdAt": 1716430000000
+  },
+  {
+    "id": "rent-pickup-2",
+    "listingId": "dj-lighting-kit",
+    "buyerId": "yasmine",
+    "vendorId": "user-1",
+    "startDate": "2026-05-26",
+    "endDate": "2026-05-27",
+    "offerPrice": 25,
+    "status": "accepted",
+    "thread": [],
+    "deliveryState": "vendor_preparing",
+    "insuranceState": "pending_recording",
+    "createdAt": 1716440000000
+  },
+  {
+    "id": "rent-insurance-validating-1",
+    "listingId": "electric-scooter",
+    "buyerId": "karim",
+    "vendorId": "user-1",
+    "startDate": "2026-05-24",
+    "endDate": "2026-05-26",
+    "offerPrice": 30,
+    "status": "accepted",
+    "thread": [],
+    "deliveryState": "vendor_preparing",
+    "insuranceState": "submitted_for_validation",
+    "createdAt": 1716450000000
+  },
+  {
+    "id": "rent-transit-2",
+    "listingId": "pressure-washer-pro",
+    "buyerId": "salma",
+    "vendorId": "user-1",
+    "startDate": "2026-05-23",
+    "endDate": "2026-05-25",
+    "offerPrice": 40,
+    "status": "accepted",
+    "thread": [],
+    "deliveryState": "in_transit",
+    "insuranceState": "approved",
+    "insuranceCode": "XV-882",
+    "createdAt": 1716460000000
+  },
+  {
+    "id": "rent-pending-u1-4",
+    "listingId": "camping-cooler",
+    "buyerId": "mehdi",
+    "vendorId": "user-1",
+    "startDate": "2026-06-15",
+    "endDate": "2026-06-20",
+    "offerPrice": 18,
+    "status": "pending",
+    "thread": [],
+    "deliveryState": "pending",
+    "insuranceState": "not_required",
+    "createdAt": 1716470000000
+  },
+  {
+    "id": "rent-negotiating-u1-2",
+    "listingId": "drill-impact",
+    "buyerId": "anis",
+    "vendorId": "user-1",
+    "startDate": "2026-05-29",
+    "endDate": "2026-05-30",
+    "offerPrice": 15,
+    "status": "negotiating",
+    "thread": [
+      {
+        "id": "m1",
+        "authorId": "anis",
+        "type": "offer",
+        "price": 15,
+        "startDate": "2026-05-29",
+        "endDate": "2026-05-30",
+        "ts": 1716480000000
+      }
+    ],
+    "deliveryState": "pending",
+    "insuranceState": "not_required",
+    "createdAt": 1716480000000
   }
 ]

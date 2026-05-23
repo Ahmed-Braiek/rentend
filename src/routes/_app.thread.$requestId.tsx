@@ -23,7 +23,6 @@ function Thread() {
   const counterOffer = useApp((s) => s.counterOffer);
   const rejectRental = useApp((s) => s.rejectRental);
 
-  const [text, setText] = useState("");
   const [counterPrice, setCounterPrice] = useState("");
   const scroller = useRef<HTMLDivElement>(null);
 
@@ -35,10 +34,6 @@ function Thread() {
   }, [messages.length]);
 
   const requireVerification = useApp((s) => s.requireVerification);
-
-  const send = async () => {
-    if (!text.trim() || !request) return;
-  };
 
   const sendCounter = async () => {
     if (!counterPrice || !request) return;
@@ -55,9 +50,7 @@ function Thread() {
     if (!ok) return;
 
     await acceptRental(requestId);
-    if (role === "buyer") {
-      navigate({ to: "/contract/$id", params: { id: request.listingId } });
-    }
+    navigate({ to: "/contract/$id", params: { id: request.listingId } });
   };
 
   const onReject = async () => {
@@ -73,7 +66,7 @@ function Thread() {
     <div className="flex flex-col h-[calc(100vh-72px)]">
       <header className="flex items-center gap-3 p-4 border-b border-border">
         <Link
-          to={role === "vendor" ? "/vendor/requests" : "/messages"}
+          to={role === "vendor" ? "/vendor/requests" : "/rentals"}
           className="w-10 h-10 rounded-full border border-border flex items-center justify-center"
         >
           <ArrowLeft size={18} />
@@ -120,18 +113,7 @@ function Thread() {
               </div>
             );
           }
-          return (
-            <div
-              key={m.id}
-              className={`max-w-[75%] rounded-2xl px-3.5 py-2.5 text-sm ${
-                mine
-                  ? "ml-auto bg-primary text-white rounded-br-md"
-                  : "bg-secondary text-ink rounded-bl-md"
-              }`}
-            >
-              {m.text}
-            </div>
-          );
+          return null;
         })}
         {messages.length === 0 && (
           <div className="text-center text-sm text-muted-foreground py-10">
@@ -141,37 +123,24 @@ function Thread() {
       </div>
 
       <div className="border-t border-border p-3 space-y-2 bg-card">
-        <div className="flex gap-2">
-          <input
-            type="number"
-            placeholder="Counter price (DT)"
-            value={counterPrice}
-            onChange={(e) => setCounterPrice(e.target.value)}
-            className="flex-1 border border-border rounded-full px-4 py-2.5 text-sm focus:outline-none focus:border-primary"
-          />
-          <button
-            onClick={sendCounter}
-            disabled={!counterPrice}
-            className="bg-accent text-primary-dark text-sm font-semibold px-4 rounded-full disabled:opacity-50"
-          >
-            Send offer
-          </button>
-        </div>
-        <div className="flex gap-2">
-          <input
-            value={text}
-            onChange={(e) => setText(e.target.value)}
-            onKeyDown={(e) => e.key === "Enter" && send()}
-            placeholder="Message…"
-            className="flex-1 border border-border rounded-full px-4 py-2.5 text-sm focus:outline-none focus:border-primary"
-          />
-          <button
-            onClick={send}
-            className="w-11 h-11 rounded-full bg-primary text-white flex items-center justify-center"
-          >
-            <Send size={16} />
-          </button>
-        </div>
+        {request.status !== "accepted" && request.status !== "rejected" && (
+          <div className="flex gap-2">
+            <input
+              type="number"
+              placeholder="Counter price (DT)"
+              value={counterPrice}
+              onChange={(e) => setCounterPrice(e.target.value)}
+              className="flex-1 border border-border rounded-full px-4 py-2.5 text-sm focus:outline-none focus:border-primary"
+            />
+            <button
+              onClick={sendCounter}
+              disabled={!counterPrice}
+              className="bg-accent text-primary-dark text-sm font-semibold px-4 rounded-full disabled:opacity-50"
+            >
+              Send offer
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );

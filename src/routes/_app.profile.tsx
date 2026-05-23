@@ -3,6 +3,7 @@ import { ArrowLeft, Share2, MoreVertical, Star, MapPin, BadgeCheck, ListChecks, 
 import { vendors, listings, reviews } from "@/lib/mock-data";
 import { ListingCard } from "@/components/ListingCard";
 import { useApp } from "@/lib/store";
+import usersJson from "@/data/users.json";
 
 export const Route = createFileRoute("/_app/profile")({
   head: () => ({ meta: [{ title: "Vendor profile — Rented" }] }),
@@ -15,6 +16,7 @@ function Profile() {
   const items = listings.slice(0, 4);
   const currentUser = useApp((s) => s.currentUser);
   const setActiveMode = useApp((s) => s.setActiveMode);
+  const switchAccount = useApp((s) => s.switchAccount);
   const setAuthed = useApp((s) => s.setAuthed);
   const verification = currentUser.verificationStatus;
   const activeMode = currentUser.activeMode;
@@ -136,6 +138,29 @@ function Profile() {
           >
             Vendor mode
           </button>
+        </div>
+
+        <div className="mt-4 bg-accent border border-primary/20 rounded-2xl p-4">
+          <label className="text-xs font-bold text-primary-dark uppercase tracking-widest mb-2 block">
+            Debug: Switch Mock User
+          </label>
+          <select
+            value={currentUser.id}
+            onChange={(e) => {
+              switchAccount(e.target.value);
+              navigate({ to: "/home" });
+            }}
+            className="w-full bg-white border border-border rounded-xl px-3 py-2 text-sm text-ink focus:outline-none focus:border-primary"
+          >
+            {usersJson.map((u: any) => (
+              <option key={u.id} value={u.id}>
+                {u.name} ({u.id})
+              </option>
+            ))}
+          </select>
+          <p className="text-[10px] text-muted-foreground mt-2 leading-tight">
+            Use this to test the end-to-end flow. Switch to a buyer to request a rental, then switch back to the vendor to accept it!
+          </p>
         </div>
 
         <div className="mt-6 bg-card border border-border rounded-2xl overflow-hidden">

@@ -299,5 +299,155 @@
     ],
     "description": "Massive sound and deep bass. Built-in battery lasts up to 18 hours. Splashproof. Includes a wired microphone for karaoke.",
     "delivery": true
+  },
+  {
+    "id": "drill-impact",
+    "title": "Dewalt 20V Max Impact Driver",
+    "category": "tools",
+    "pricePerDay": 20,
+    "rating": 4.9,
+    "distanceKm": 1.5,
+    "vendorId": "user-1",
+    "image": "https://images.unsplash.com/photo-1504148455328-c376907d081c?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1504148455328-c376907d081c?w=1200&h=900&fit=crop"
+    ],
+    "description": "Compact and powerful impact driver for tight spaces. Includes 2 batteries and charger.",
+    "delivery": true
+  },
+  {
+    "id": "camera-lens-50mm",
+    "title": "Canon EF 50mm f/1.8 STM Lens",
+    "category": "photography",
+    "pricePerDay": 15,
+    "rating": 4.8,
+    "distanceKm": 2.3,
+    "vendorId": "user-1",
+    "image": "https://images.unsplash.com/photo-1616423640778-28d1b53229bd?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1616423640778-28d1b53229bd?w=1200&h=900&fit=crop"
+    ],
+    "description": "The 'nifty fifty'. Essential portrait lens with great bokeh. Pristine condition.",
+    "delivery": true
+  },
+  {
+    "id": "gopro-hero",
+    "title": "GoPro HERO11 Black",
+    "category": "photography",
+    "pricePerDay": 35,
+    "rating": 4.7,
+    "distanceKm": 3.1,
+    "vendorId": "user-1",
+    "image": "https://images.unsplash.com/photo-1588693959306-03da02241b71?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1588693959306-03da02241b71?w=1200&h=900&fit=crop"
+    ],
+    "description": "Waterproof action camera. Shoots 5.3K video. Comes with floating handle and chest mount.",
+    "delivery": false
+  },
+  {
+    "id": "camping-tent-2p",
+    "title": "Quechua 2 Seconds Pop Up Tent",
+    "category": "camping",
+    "pricePerDay": 12,
+    "rating": 4.5,
+    "distanceKm": 1.8,
+    "vendorId": "user-1",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?w=1200&h=900&fit=crop"
+    ],
+    "description": "Super fast setup. Perfect for a quick weekend escape. Fits 2 adults comfortably.",
+    "delivery": true
+  },
+  {
+    "id": "tool-kit-100pcs",
+    "title": "Makita 100-Piece Hand Tool Set",
+    "category": "tools",
+    "pricePerDay": 15,
+    "rating": 4.6,
+    "distanceKm": 2.0,
+    "vendorId": "user-1",
+    "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?w=1200&h=900&fit=crop"
+    ],
+    "description": "Complete tool kit for home repairs. Wrenches, pliers, sockets, and screwdrivers.",
+    "delivery": true
+  },
+  {
+    "id": "generator-honda",
+    "title": "Honda EU2200i Portable Generator",
+    "category": "tools",
+    "pricePerDay": 45,
+    "rating": 4.9,
+    "distanceKm": 4.5,
+    "vendorId": "user-1",
+    "image": "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=1200&h=900&fit=crop"
+    ],
+    "description": "Super quiet 2200W inverter generator. Great for camping or outdoor events.",
+    "delivery": true
+  },
+  {
+    "id": "electric-scooter",
+    "title": "Xiaomi Mi Pro 2 Electric Scooter",
+    "category": "sports",
+    "pricePerDay": 30,
+    "rating": 4.7,
+    "distanceKm": 2.1,
+    "vendorId": "user-1",
+    "image": "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=1200&h=900&fit=crop"
+    ],
+    "description": "45km range on a single charge. Perfect for city commuting. Includes helmet and charger.",
+    "delivery": false
+  },
+  {
+    "id": "dj-lighting-kit",
+    "title": "RGB Laser & Strobe Party Light Kit",
+    "category": "events",
+    "pricePerDay": 25,
+    "rating": 4.8,
+    "distanceKm": 3.4,
+    "vendorId": "user-1",
+    "image": "https://images.unsplash.com/photo-1470229722913-7c092fb46534?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1470229722913-7c092fb46534?w=1200&h=900&fit=crop"
+    ],
+    "description": "Sound-activated party lights. Covers a large room easily. Includes smoke machine.",
+    "delivery": true
+  },
+  {
+    "id": "pressure-washer-pro",
+    "title": "Karcher K5 Premium Smart Control",
+    "category": "tools",
+    "pricePerDay": 40,
+    "rating": 4.9,
+    "distanceKm": 1.2,
+    "vendorId": "user-1",
+    "image": "https://images.unsplash.com/photo-1622322306236-47b2b0051e5e?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1622322306236-47b2b0051e5e?w=1200&h=900&fit=crop"
+    ],
+    "description": "Bluetooth enabled high-pressure washer. Includes patio cleaner attachment.",
+    "delivery": false
+  },
+  {
+    "id": "camping-cooler",
+    "title": "YETI Tundra 45 Hard Cooler",
+    "category": "camping",
+    "pricePerDay": 20,
+    "rating": 5.0,
+    "distanceKm": 2.8,
+    "vendorId": "user-1",
+    "image": "https://images.unsplash.com/photo-1596485501865-c35d25f7ee70?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1596485501865-c35d25f7ee70?w=1200&h=900&fit=crop"
+    ],
+    "description": "Keeps ice for days. Indestructible. Perfect size for a weekend camping trip.",
+    "delivery": true
   }
 ]

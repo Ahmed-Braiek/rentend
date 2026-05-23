@@ -141,6 +141,9 @@ type State = {
   startDraft: (listingId: string) => void;
   updateDraft: (patch: Partial<RentalDraft>) => void;
   updateDeliveryState: (rentalId: string, state: DeliveryState) => void;
+  
+  // Account Switcher for testing
+  switchAccount: (userId: string) => void;
 };
 
 const delay = (ms: number) => new Promise(r => setTimeout(r, ms));
@@ -297,7 +300,16 @@ export const useApp = create<State>()(
       updateDeliveryState: (rentalId, state) => set((s) => ({
         rentals: s.rentals.map((r) => r.id === rentalId ? { ...r, deliveryState: state } : r)
       })),
+      
+      switchAccount: (userId) => {
+        const user = usersJson.find((u: any) => u.id === userId);
+        if (user) {
+          set({
+            currentUser: { ...user, activeMode: "buyer" } as UserAccount
+          });
+        }
+      },
     }),
-    { name: "rented-app-v5" }
+    { name: "rented-app-v8" }
   )
 );

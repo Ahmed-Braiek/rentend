@@ -25,7 +25,6 @@ const buyerItems: NavItem[] = [
   { to: "/home", icon: Home, label: "Home", match: "/home" },
   { to: "/search", icon: Search, label: "Search", match: "/search" },
   { to: "/rentals", icon: Package, label: "Rentals", match: "/rentals" },
-  { to: "/messages", icon: MessageCircle, label: "Chat", match: "/messages" },
   { to: "/profile", icon: User, label: "You", match: "/profile" },
 ];
 

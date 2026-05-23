@@ -39,7 +39,7 @@ function Payment() {
   const pay = async () => {
     if (!draft.paymentMethod) return;
     await createRentalRequest(listing.id, listing.vendorId, draft.startDate, draft.endDate, listing.pricePerDay);
-    navigate({ to: "/success" });
+    navigate({ to: "/rentals" });
   };
 
   return (

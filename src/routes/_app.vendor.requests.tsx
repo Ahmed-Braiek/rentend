@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { Calendar } from "lucide-react";
 import { useApp } from "@/lib/store";
 import { getListing } from "@/lib/mock-data";
@@ -9,6 +9,7 @@ export const Route = createFileRoute("/_app/vendor/requests")({
 });
 
 function VendorRequests() {
+  const navigate = useNavigate();
   const currentUser = useApp((s) => s.currentUser);
   const allRentals = useApp((s) => s.rentals);
   const requests = allRentals.filter((r) => r.vendorId === currentUser.id);
@@ -84,9 +85,12 @@ function VendorRequests() {
                   Counter
                 </Link>
                 <button
-                  onClick={() => {
+                  onClick={async () => {
                     const ok = requireVerification("You must verify your identity to accept rentals.");
-                    if (ok) acceptRental(r.id);
+                    if (ok) {
+                      await acceptRental(r.id);
+                      navigate({ to: "/contract/$id", params: { id: r.listingId } });
+                    }
                   }}
                   className="bg-primary text-white rounded-full py-2 text-sm font-semibold"
                 >

@@ -17,7 +17,7 @@ function Contract() {
   const listing = getListing(id)!;
   const vendor = getVendor(listing.vendorId);
   const navigate = useNavigate();
-  const { draft, updateDraft } = useApp();
+  const { draft, updateDraft, currentUser } = useApp();
   const [confirmed, setConfirmed] = useState(false);
   const [signOpen, setSignOpen] = useState(false);
   const [sig, setSig] = useState<string | null>(null);
@@ -25,7 +25,11 @@ function Contract() {
   const proceed = () => {
     updateDraft({ signature: sig });
     setSignOpen(false);
-    navigate({ to: "/payment/$id", params: { id } });
+    if (currentUser.activeMode === "vendor") {
+      navigate({ to: "/vendor/requests" });
+    } else {
+      navigate({ to: "/payment/$id", params: { id } });
+    }
   };
 
   return (

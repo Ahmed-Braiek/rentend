@@ -20,7 +20,6 @@ import { Route as AppSearchRouteImport } from './routes/_app.search'
 import { Route as AppRentalsRouteImport } from './routes/_app.rentals'
 import { Route as AppProfileRouteImport } from './routes/_app.profile'
 import { Route as AppNewRouteImport } from './routes/_app.new'
-import { Route as AppMessagesRouteImport } from './routes/_app.messages'
 import { Route as AppImpactRouteImport } from './routes/_app.impact'
 import { Route as AppHomeRouteImport } from './routes/_app.home'
 import { Route as AppVerifyIndexRouteImport } from './routes/_app.verify.index'
@@ -95,11 +94,6 @@ const AppProfileRoute = AppProfileRouteImport.update({
 const AppNewRoute = AppNewRouteImport.update({
   id: '/new',
   path: '/new',
-  getParentRoute: () => AppRoute,
-} as any)
-const AppMessagesRoute = AppMessagesRouteImport.update({
-  id: '/messages',
-  path: '/messages',
   getParentRoute: () => AppRoute,
 } as any)
 const AppImpactRoute = AppImpactRouteImport.update({
@@ -217,7 +211,6 @@ export interface FileRoutesByFullPath {
   '/welcome': typeof WelcomeRoute
   '/home': typeof AppHomeRoute
   '/impact': typeof AppImpactRoute
-  '/messages': typeof AppMessagesRoute
   '/new': typeof AppNewRoute
   '/profile': typeof AppProfileRoute
   '/rentals': typeof AppRentalsRoute
@@ -251,7 +244,6 @@ export interface FileRoutesByTo {
   '/welcome': typeof WelcomeRoute
   '/home': typeof AppHomeRoute
   '/impact': typeof AppImpactRoute
-  '/messages': typeof AppMessagesRoute
   '/new': typeof AppNewRoute
   '/profile': typeof AppProfileRoute
   '/rentals': typeof AppRentalsRoute
@@ -286,7 +278,6 @@ export interface FileRoutesById {
   '/welcome': typeof WelcomeRoute
   '/_app/home': typeof AppHomeRoute
   '/_app/impact': typeof AppImpactRoute
-  '/_app/messages': typeof AppMessagesRoute
   '/_app/new': typeof AppNewRoute
   '/_app/profile': typeof AppProfileRoute
   '/_app/rentals': typeof AppRentalsRoute
@@ -322,7 +313,6 @@ export interface FileRouteTypes {
     | '/welcome'
     | '/home'
     | '/impact'
-    | '/messages'
     | '/new'
     | '/profile'
     | '/rentals'
@@ -356,7 +346,6 @@ export interface FileRouteTypes {
     | '/welcome'
     | '/home'
     | '/impact'
-    | '/messages'
     | '/new'
     | '/profile'
     | '/rentals'
@@ -390,7 +379,6 @@ export interface FileRouteTypes {
     | '/welcome'
     | '/_app/home'
     | '/_app/impact'
-    | '/_app/messages'
     | '/_app/new'
     | '/_app/profile'
     | '/_app/rentals'
@@ -503,13 +491,6 @@ declare module '@tanstack/react-router' {
       path: '/new'
       fullPath: '/new'
       preLoaderRoute: typeof AppNewRouteImport
-      parentRoute: typeof AppRoute
-    }
-    '/_app/messages': {
-      id: '/_app/messages'
-      path: '/messages'
-      fullPath: '/messages'
-      preLoaderRoute: typeof AppMessagesRouteImport
       parentRoute: typeof AppRoute
     }
     '/_app/impact': {
@@ -685,7 +666,6 @@ const AppVendorRouteWithChildren = AppVendorRoute._addFileChildren(
 interface AppRouteChildren {
   AppHomeRoute: typeof AppHomeRoute
   AppImpactRoute: typeof AppImpactRoute
-  AppMessagesRoute: typeof AppMessagesRoute
   AppNewRoute: typeof AppNewRoute
   AppProfileRoute: typeof AppProfileRoute
   AppRentalsRoute: typeof AppRentalsRoute
@@ -711,7 +691,6 @@ interface AppRouteChildren {
 const AppRouteChildren: AppRouteChildren = {
   AppHomeRoute: AppHomeRoute,
   AppImpactRoute: AppImpactRoute,
-  AppMessagesRoute: AppMessagesRoute,
   AppNewRoute: AppNewRoute,
   AppProfileRoute: AppProfileRoute,
   AppRentalsRoute: AppRentalsRoute,

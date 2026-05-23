@@ -1,0 +1,4 @@
+[
+  { "id": "contract-1", "rentalId": "rent-completed-1", "signedAt": 1715000100000, "buyerSignature": "user-1-hash", "vendorSignature": "anis-hash", "terms": "Standard RENTED 48h coverage." },
+  { "id": "contract-2", "rentalId": "rent-active-vendor-1", "signedAt": 1716390100000, "buyerSignature": "salma-hash", "vendorSignature": "user-1-hash", "terms": "Standard RENTED 48h coverage plus late fee clauses." }
+]

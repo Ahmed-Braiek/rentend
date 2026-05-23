@@ -1,0 +1,5 @@
+[
+  { "id": "notif-1", "userId": "user-1", "type": "rental_request", "title": "New Rental Request", "body": "Salma T wants to rent your Pro Tripod.", "isRead": false, "createdAt": 1716390000000, "link": "/vendor/requests" },
+  { "id": "notif-2", "userId": "user-1", "type": "insurance_approved", "title": "Insurance Active", "body": "Video verification for Bosch Drill was approved.", "isRead": true, "createdAt": 1715000500000, "link": "/delivery/rent-completed-1" },
+  { "id": "notif-3", "userId": "user-1", "type": "payment_released", "title": "Payout complete", "body": "50 DT has been released to your wallet.", "isRead": true, "createdAt": 1715200000000, "link": "/vendor/earnings" }
+]

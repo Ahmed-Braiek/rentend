@@ -1,0 +1,10 @@
+[
+  { "id": "tools", "label": "Tools & DIY", "iconName": "Wrench" },
+  { "id": "electronics", "label": "Electronics", "iconName": "Laptop" },
+  { "id": "furniture", "label": "Furniture", "iconName": "Sofa" },
+  { "id": "sports", "label": "Sports", "iconName": "Dumbbell" },
+  { "id": "photography", "label": "Photography", "iconName": "Camera" },
+  { "id": "camping", "label": "Camping", "iconName": "Tent" },
+  { "id": "events", "label": "Events", "iconName": "PartyPopper" },
+  { "id": "auto", "label": "Auto Accessories", "iconName": "Car" }
+]

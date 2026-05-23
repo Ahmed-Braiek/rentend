@@ -1,0 +1,7 @@
+[
+  { "vendorId": "user-1", "monthEarnings": 1240, "earningsGrowth": 18, "profileViews": 450, "conversionRate": 12.5, "responseTimeHours": 1.2 },
+  { "vendorId": "ahmed", "monthEarnings": 3200, "earningsGrowth": 5, "profileViews": 1200, "conversionRate": 22.0, "responseTimeHours": 0.5 },
+  { "vendorId": "fatma", "monthEarnings": 450, "earningsGrowth": -2, "profileViews": 310, "conversionRate": 8.5, "responseTimeHours": 3.0 },
+  { "vendorId": "anis", "monthEarnings": 890, "earningsGrowth": 25, "profileViews": 520, "conversionRate": 15.2, "responseTimeHours": 2.1 },
+  { "vendorId": "mehdi", "monthEarnings": 2100, "earningsGrowth": 40, "profileViews": 890, "conversionRate": 18.7, "responseTimeHours": 0.8 }
+]

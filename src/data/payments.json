@@ -1,0 +1,4 @@
+[
+  { "id": "pay-1", "rentalId": "rent-completed-1", "amount": 50, "status": "released", "escrowId": "esc_99123", "releasedAt": 1715200000000 },
+  { "id": "pay-2", "rentalId": "rent-active-vendor-1", "amount": 30, "status": "held_in_escrow", "escrowId": "esc_12455", "createdAt": 1716390100000 }
+]

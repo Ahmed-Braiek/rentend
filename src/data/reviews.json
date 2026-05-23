@@ -1,0 +1,7 @@
+[
+  { "id": "rev-1", "listingId": "drill-bosch", "authorId": "nizar", "date": "May 12, 2026", "rating": 5, "text": "Fast replies, smooth pickup, and everything worked perfectly. Highly recommend." },
+  { "id": "rev-2", "listingId": "drill-bosch", "authorId": "salma", "date": "April 28, 2026", "rating": 4, "text": "Equipment was clean and functional." },
+  { "id": "rev-3", "listingId": "macbook-pro-14", "authorId": "karim", "date": "May 15, 2026", "rating": 5, "text": "Absolute beast of a machine. Rendered my 4K project in minutes. Mehdi is a great guy." },
+  { "id": "rev-4", "listingId": "tripod-pro", "authorId": "rim", "date": "May 20, 2026", "rating": 5, "text": "Very sturdy tripod. Supported my heavy rig with no issues. Easy handover." },
+  { "id": "rev-5", "listingId": "ps5-console", "authorId": "anis", "date": "May 10, 2026", "rating": 5, "text": "Saved our weekend! Controllers were fully charged." }
+]

@@ -1,0 +1,157 @@
+[
+  {
+    "id": "rent-active-1",
+    "listingId": "ps5-console",
+    "buyerId": "nizar",
+    "vendorId": "mehdi",
+    "startDate": "2026-05-24",
+    "endDate": "2026-05-26",
+    "offerPrice": 90,
+    "status": "accepted",
+    "thread": [
+      {
+        "id": "m1",
+        "authorId": "nizar",
+        "type": "text",
+        "text": "Hi Mehdi, can I grab the PS5 for the weekend?",
+        "ts": 1716380000000
+      }
+    ],
+    "deliveryState": "vendor_preparing",
+    "insuranceState": "pending_recording",
+    "createdAt": 1716380000000
+  },
+  {
+    "id": "rent-negotiating-1",
+    "listingId": "macbook-pro-14",
+    "buyerId": "yasmine",
+    "vendorId": "mehdi",
+    "startDate": "2026-06-01",
+    "endDate": "2026-06-05",
+    "offerPrice": 450,
+    "status": "negotiating",
+    "thread": [
+      {
+        "id": "m1",
+        "authorId": "yasmine",
+        "type": "offer",
+        "price": 400,
+        "startDate": "2026-06-01",
+        "endDate": "2026-06-05",
+        "ts": 1716331200000
+      },
+      {
+        "id": "m2",
+        "authorId": "mehdi",
+        "type": "text",
+        "text": "Hi Yasmine, it's a very expensive machine. The best I can do is 450 DT for 4 days.",
+        "ts": 1716338400000
+      },
+      {
+        "id": "m3",
+        "authorId": "mehdi",
+        "type": "offer",
+        "price": 450,
+        "ts": 1716338450000
+      }
+    ],
+    "deliveryState": "pending",
+    "insuranceState": "not_required",
+    "createdAt": 1716331200000
+  },
+  {
+    "id": "rent-pending-1",
+    "listingId": "sony-a7iv",
+    "buyerId": "karim",
+    "vendorId": "ahmed",
+    "startDate": "2026-05-30",
+    "endDate": "2026-05-31",
+    "offerPrice": 150,
+    "status": "pending",
+    "thread": [
+      {
+        "id": "m1",
+        "authorId": "karim",
+        "type": "text",
+        "text": "Hey Ahmed, I need the camera for a wedding shoot. Is it available?",
+        "ts": 1716400000000
+      }
+    ],
+    "deliveryState": "pending",
+    "insuranceState": "not_required",
+    "createdAt": 1716400000000
+  },
+  {
+    "id": "rent-transit-1",
+    "listingId": "green-road-bike",
+    "buyerId": "rim",
+    "vendorId": "fatma",
+    "startDate": "2026-05-23",
+    "endDate": "2026-05-25",
+    "offerPrice": 120,
+    "status": "accepted",
+    "thread": [],
+    "deliveryState": "in_transit",
+    "insuranceState": "approved",
+    "insuranceCode": "DX-902",
+    "createdAt": 1716100000000
+  },
+  {
+    "id": "rent-completed-1",
+    "listingId": "drill-bosch",
+    "buyerId": "user-1",
+    "vendorId": "anis",
+    "startDate": "2026-05-10",
+    "endDate": "2026-05-12",
+    "offerPrice": 50,
+    "status": "accepted",
+    "thread": [],
+    "deliveryState": "returned",
+    "insuranceState": "approved",
+    "insuranceCode": "ZT-441",
+    "createdAt": 1715000000000
+  },
+  {
+    "id": "rent-active-vendor-1",
+    "listingId": "tripod-pro",
+    "buyerId": "salma",
+    "vendorId": "user-1",
+    "startDate": "2026-05-24",
+    "endDate": "2026-05-25",
+    "offerPrice": 30,
+    "status": "accepted",
+    "thread": [],
+    "deliveryState": "vendor_preparing",
+    "insuranceState": "pending_recording",
+    "createdAt": 1716390000000
+  },
+  {
+    "id": "rent-rejected-1",
+    "listingId": "studio-apt",
+    "buyerId": "nizar",
+    "vendorId": "ahmed",
+    "startDate": "2026-05-28",
+    "endDate": "2026-05-29",
+    "offerPrice": 80,
+    "status": "rejected",
+    "thread": [
+      {
+        "id": "m1",
+        "authorId": "nizar",
+        "type": "text",
+        "text": "I want to rent the studio.",
+        "ts": 1716200000000
+      },
+      {
+        "id": "m2",
+        "authorId": "ahmed",
+        "type": "text",
+        "text": "Sorry, it's already booked offline for those dates.",
+        "ts": 1716210000000
+      }
+    ],
+    "deliveryState": "pending",
+    "insuranceState": "not_required",
+    "createdAt": 1716200000000
+  }
+]

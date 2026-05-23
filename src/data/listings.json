@@ -1,0 +1,303 @@
+[
+  {
+    "id": "drill-bosch",
+    "title": "Bosch Hammer Drill Professional",
+    "category": "tools",
+    "pricePerDay": 25,
+    "rating": 4.9,
+    "distanceKm": 4.2,
+    "vendorId": "anis",
+    "image": "https://images.unsplash.com/photo-1572981779307-38b8cabb2407?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1572981779307-38b8cabb2407?w=1200&h=900&fit=crop"
+    ],
+    "description": "Professional-grade hammer drill with full bit set and case. Excellent for concrete and heavy masonry work.",
+    "delivery": true
+  },
+  {
+    "id": "macbook-pro-14",
+    "title": "MacBook Pro 14\" M3 Max",
+    "category": "electronics",
+    "pricePerDay": 120,
+    "rating": 4.8,
+    "distanceKm": 5.4,
+    "vendorId": "mehdi",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=1200&h=900&fit=crop"
+    ],
+    "description": "M3 Max, 64GB RAM. Perfect for 4K/8K video edits and heavy development work. Installed with Final Cut and Adobe Suite.",
+    "delivery": true
+  },
+  {
+    "id": "green-road-bike",
+    "title": "Trek Domane Road Bike",
+    "category": "sports",
+    "pricePerDay": 60,
+    "rating": 4.5,
+    "distanceKm": 2.1,
+    "vendorId": "fatma",
+    "image": "https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?w=1200&h=900&fit=crop",
+      "https://images.unsplash.com/photo-1485965120184-e220f721d03e?w=1200&h=900&fit=crop"
+    ],
+    "description": "Lightweight and reliable road bike perfect for city rides and weekend adventures. Includes helmet and lock.",
+    "delivery": false
+  },
+  {
+    "id": "sony-a7iv",
+    "title": "Sony Alpha a7 IV Body + 24-70mm GM",
+    "category": "photography",
+    "pricePerDay": 150,
+    "rating": 5.0,
+    "distanceKm": 3.8,
+    "vendorId": "ahmed",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1200&h=900&fit=crop"
+    ],
+    "description": "Full-frame mirrorless camera. Superb for events and weddings. Comes with 2 batteries and a fast 128GB SD card.",
+    "delivery": true
+  },
+  {
+    "id": "tripod-pro",
+    "title": "Peak Design Carbon Fiber Tripod",
+    "category": "photography",
+    "pricePerDay": 30,
+    "rating": 4.7,
+    "distanceKm": 1.8,
+    "vendorId": "user-1",
+    "image": "https://images.unsplash.com/photo-1606986628253-49a4a06837ec?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1606986628253-49a4a06837ec?w=1200&h=900&fit=crop"
+    ],
+    "description": "Ultra-lightweight carbon-fiber tripod, rated for heavy DSLR and mirrorless rigs. Includes ball head and mount plate.",
+    "delivery": true
+  },
+  {
+    "id": "ps5-console",
+    "title": "PlayStation 5 + 2 Controllers & FIFA 24",
+    "category": "electronics",
+    "pricePerDay": 45,
+    "rating": 4.9,
+    "distanceKm": 6.0,
+    "vendorId": "mehdi",
+    "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=1200&h=900&fit=crop"
+    ],
+    "description": "Perfect for weekend game nights. Comes with FIFA 24, Tekken 8, and two DualSense controllers.",
+    "delivery": true
+  },
+  {
+    "id": "tent-4-person",
+    "title": "Coleman 4-Person Camping Tent",
+    "category": "camping",
+    "pricePerDay": 35,
+    "rating": 4.6,
+    "distanceKm": 2.5,
+    "vendorId": "fatma",
+    "image": "https://images.unsplash.com/photo-1533873984035-25970ab07461?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1533873984035-25970ab07461?w=1200&h=900&fit=crop"
+    ],
+    "description": "Spacious and easy to set up. Weatherproof. Perfect for a family getaway to the mountains.",
+    "delivery": false
+  },
+  {
+    "id": "dj-controller",
+    "title": "Pioneer DDJ-400 Controller",
+    "category": "events",
+    "pricePerDay": 50,
+    "rating": 4.8,
+    "distanceKm": 4.0,
+    "vendorId": "ahmed",
+    "image": "https://images.unsplash.com/photo-1571266028243-cb40fce7573a?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1571266028243-cb40fce7573a?w=1200&h=900&fit=crop"
+    ],
+    "description": "Industry standard entry-level controller for Rekordbox. Ideal for house parties. Cables included.",
+    "delivery": true
+  },
+  {
+    "id": "roof-box",
+    "title": "Thule Roof Box 400L",
+    "category": "auto",
+    "pricePerDay": 40,
+    "rating": 4.7,
+    "distanceKm": 8.1,
+    "vendorId": "anis",
+    "image": "https://images.unsplash.com/photo-1550502127-142f8c5b04d1?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1550502127-142f8c5b04d1?w=1200&h=900&fit=crop"
+    ],
+    "description": "Extra storage for road trips. Mounts to standard roof bars. Very secure and aerodynamic.",
+    "delivery": false
+  },
+  {
+    "id": "folding-chairs",
+    "title": "Set of 20 Folding Event Chairs",
+    "category": "events",
+    "pricePerDay": 30,
+    "rating": 4.5,
+    "distanceKm": 3.3,
+    "vendorId": "user-1",
+    "image": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=1200&h=900&fit=crop"
+    ],
+    "description": "White folding chairs, sturdy and clean. Perfect for weddings, conferences, or large family gatherings.",
+    "delivery": true
+  },
+  {
+    "id": "drone-dji",
+    "title": "DJI Mavic 3 Pro Cinematic Drone",
+    "category": "photography",
+    "pricePerDay": 180,
+    "rating": 5.0,
+    "distanceKm": 5.5,
+    "vendorId": "ahmed",
+    "image": "https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?w=1200&h=900&fit=crop"
+    ],
+    "description": "Tri-camera system, Hasselblad lens. Includes Fly More Combo (3 batteries, ND filters, car charger). License required.",
+    "delivery": true
+  },
+  {
+    "id": "surfboard",
+    "title": "Beginner Surfboard 8ft Foamie",
+    "category": "sports",
+    "pricePerDay": 20,
+    "rating": 4.4,
+    "distanceKm": 1.2,
+    "vendorId": "fatma",
+    "image": "https://images.unsplash.com/photo-1531722569936-825d3dd91b15?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1531722569936-825d3dd91b15?w=1200&h=900&fit=crop"
+    ],
+    "description": "Very stable and safe foam board. Best for learning how to catch waves in local breaks. Leash included.",
+    "delivery": false
+  },
+  {
+    "id": "sewing-machine",
+    "title": "Singer Heavy Duty Sewing Machine",
+    "category": "tools",
+    "pricePerDay": 25,
+    "rating": 4.8,
+    "distanceKm": 2.9,
+    "vendorId": "user-1",
+    "image": "https://images.unsplash.com/photo-1605282502847-d5dc29bcf875?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1605282502847-d5dc29bcf875?w=1200&h=900&fit=crop"
+    ],
+    "description": "Can sew through leather, canvas, and multiple layers of denim. Very fast motor.",
+    "delivery": true
+  },
+  {
+    "id": "vr-headset",
+    "title": "Meta Quest 3 (128GB)",
+    "category": "electronics",
+    "pricePerDay": 55,
+    "rating": 4.9,
+    "distanceKm": 4.5,
+    "vendorId": "mehdi",
+    "image": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?w=1200&h=900&fit=crop"
+    ],
+    "description": "Standalone VR with mixed reality. Comes preloaded with Beat Saber, Superhot, and Half-Life Alyx (PC VR required).",
+    "delivery": true
+  },
+  {
+    "id": "ladder",
+    "title": "Telescopic Aluminum Ladder 3.8m",
+    "category": "tools",
+    "pricePerDay": 15,
+    "rating": 4.3,
+    "distanceKm": 6.8,
+    "vendorId": "anis",
+    "image": "https://images.unsplash.com/photo-1604071378347-190f70a5abf2?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1604071378347-190f70a5abf2?w=1200&h=900&fit=crop"
+    ],
+    "description": "Folds down to fit in a trunk, extends to almost 4 meters. Very sturdy for painting and ceiling repairs.",
+    "delivery": false
+  },
+  {
+    "id": "camping-stove",
+    "title": "Campingaz 2-Burner Stove",
+    "category": "camping",
+    "pricePerDay": 18,
+    "rating": 4.6,
+    "distanceKm": 3.1,
+    "vendorId": "fatma",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?w=1200&h=900&fit=crop"
+    ],
+    "description": "Essential for group camping. Gas canisters are NOT included but can be bought at any hardware store.",
+    "delivery": true
+  },
+  {
+    "id": "projector",
+    "title": "Epson 1080p Home Theater Projector",
+    "category": "electronics",
+    "pricePerDay": 40,
+    "rating": 4.8,
+    "distanceKm": 2.2,
+    "vendorId": "user-1",
+    "image": "https://images.unsplash.com/photo-1605051939504-d54d92f7eaaf?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1605051939504-d54d92f7eaaf?w=1200&h=900&fit=crop"
+    ],
+    "description": "Extremely bright projector, works decently even in daylight. Best for movie nights or big matches. HDMI cable included.",
+    "delivery": true
+  },
+  {
+    "id": "power-washer",
+    "title": "Karcher K4 High Pressure Washer",
+    "category": "tools",
+    "pricePerDay": 35,
+    "rating": 4.7,
+    "distanceKm": 5.9,
+    "vendorId": "anis",
+    "image": "https://images.unsplash.com/photo-1647413495449-301135cb17ec?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1647413495449-301135cb17ec?w=1200&h=900&fit=crop"
+    ],
+    "description": "Perfect for cleaning patios, cars, and driveways. Comes with vario lance and dirt blaster attachments.",
+    "delivery": false
+  },
+  {
+    "id": "lighting-kit",
+    "title": "Godox SL-60W Video Lights x2",
+    "category": "photography",
+    "pricePerDay": 45,
+    "rating": 4.9,
+    "distanceKm": 4.1,
+    "vendorId": "ahmed",
+    "image": "https://images.unsplash.com/photo-1510258129068-07db1ebcb1e0?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1510258129068-07db1ebcb1e0?w=1200&h=900&fit=crop"
+    ],
+    "description": "Two continuous LED lights with softboxes and stands. Excellent color accuracy for YouTube or interviews.",
+    "delivery": true
+  },
+  {
+    "id": "party-speaker",
+    "title": "JBL PartyBox 310",
+    "category": "events",
+    "pricePerDay": 70,
+    "rating": 4.9,
+    "distanceKm": 7.3,
+    "vendorId": "mehdi",
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=1200&h=900&fit=crop"
+    ],
+    "description": "Massive sound and deep bass. Built-in battery lasts up to 18 hours. Splashproof. Includes a wired microphone for karaoke.",
+    "delivery": true
+  }
+]

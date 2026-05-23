@@ -1,0 +1,19 @@
+{
+  "stats": [
+    { "label": "Items reused", "value": "15,240", "caption": "across Tunisia" },
+    { "label": "CO₂ avoided", "value": "45 t", "caption": "vs. buying new" },
+    { "label": "Families earning", "value": "1,120", "caption": "with idle items" }
+  ],
+  "stories": [
+    {
+      "id": "is1",
+      "authorId": "fatma",
+      "text": "I rent out my camping gear on weekends. It covers my daughter's school books."
+    },
+    {
+      "id": "is2",
+      "authorId": "anis",
+      "text": "Borrowed a power washer for one afternoon instead of buying. Same job, a tenth of the cost."
+    }
+  ]
+}

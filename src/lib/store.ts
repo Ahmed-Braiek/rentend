@@ -298,6 +298,6 @@ export const useApp = create<State>()(
         rentals: s.rentals.map((r) => r.id === rentalId ? { ...r, deliveryState: state } : r)
       })),
     }),
-    { name: "rented-app-v4" }
+    { name: "rented-app-v5" }
   )
 );
